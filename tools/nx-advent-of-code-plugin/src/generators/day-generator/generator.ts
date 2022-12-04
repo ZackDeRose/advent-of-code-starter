@@ -23,7 +23,10 @@ export default async function (
 }
 
 function addTargets(tree: Tree, dayName: string) {
-  const projectConfig = readProjectConfiguration(tree, 'project.json');
+  const projectConfig = readProjectConfiguration(
+    tree,
+    'advent-of-code-starter'
+  );
   const buildATarget = {
     [`build-day-${dayName}-a`]: {
       executor: '@nrwl/webpack:webpack',
