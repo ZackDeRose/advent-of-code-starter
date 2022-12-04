@@ -23,7 +23,7 @@ export default async function (
 }
 
 function addTargets(tree: Tree, dayName: string) {
-  const projectConfig = readJson(tree, 'project.json');
+  const projectConfig = readProjectConfiguration(tree, 'project.json');
   const buildATarget = {
     [`build-day-${dayName}-a`]: {
       executor: '@nrwl/webpack:webpack',
