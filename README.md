@@ -14,7 +14,7 @@ For each puzzle of the advent of code, this starter gives you:
 + a `<a/b>.test.txt` file for your test data-set (in `data/day-X`)
 + a `<a/b>.txt` file for you to paste your full dataset (also in `data/day-X`).
 
-The starting point we've generated will allow you to 
+The starting point we've generated will allow you to use the commands provided to pass the appropriate data set when running/testing your solution.
 
 ## Running Commands
 
