@@ -12,7 +12,7 @@ function max(accumulator: number, currentValue: number): number {
   return Math.max(accumulator, currentValue);
 }
 
-function getSum(input: number[]): number {
+export function getSum(input: number[]): number {
   return input.reduce((acc, curr) => acc + curr, 0);
 }
 
