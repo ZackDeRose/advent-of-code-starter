@@ -1,8 +1,10 @@
 import { readData } from '../utils';
 import chalk from 'chalk';
+import { turnIntoArrayOfNumberArrays } from './a';
 
 export async function day1b(dataPath?: string) {
   const data = await readData(dataPath);
+  const nums = turnIntoArrayOfNumberArrays(data);
   return 0;
 }
 
